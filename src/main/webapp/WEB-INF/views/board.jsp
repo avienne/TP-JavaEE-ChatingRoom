@@ -13,7 +13,6 @@
 </head>
 <body>
 
-    <%= ((List<ChatMessage>) request.getAttribute("list")).size() %>
 
      <% for (ChatMessage msg: (List<ChatMessage>) request.getAttribute("list")) { %>
     <tr>
